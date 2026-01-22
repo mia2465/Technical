@@ -1,15 +1,16 @@
 # Technical
 Technical interview 
 
-HOW TO RUN THE CODE - For all analysis, run Technical.ipynb. It was created to function on Collab, directly downloading the data from this repository.
-Run through each cell consecutively to see how analysis was generated. Previous outputs are also present within the file.
-Each analysis should save its own results as a file - original results will be in this repository.
-Open the Dashboards.py file
-Run the command ‘panel serve Dashboard.py’ within your terminal
-If successful you will see a link appear for the dashboard
- Bokeh app running at: http://localhost:5006/Dashboard
- Starting Bokeh server with process id: 72034
-Open link to dashboard
+HOW TO RUN THE CODE 
+- For all analysis, run Technical.ipynb. It was created to function on Collab, directly downloading the data from this repository.
+- Run through each cell consecutively to see how analysis was generated. Previous outputs are also present within the file.
+- Each analysis should save its own results as a file - original results will be in this repository.
+- Open the Dashboards.py file
+- Run the command ‘panel serve Dashboard.py’ within your terminal
+- If successful you will see a link appear for the dashboard
+ *Bokeh app running at: http://localhost:5006/Dashboard
+ *Starting Bokeh server with process id: 72034
+-Open link to dashboard
 
 SCHEMA EXPLANATION
 	It seemed there were two main tables that needed to be created as all attributes could be nicely attributed to one or the other. These two main tables ended up being SAMPLES and SUBJECTS. From here, these two tables needed to be able to be joined despite how many samples a subject may have, hence the SUBJECT_SAMPLE table of the two primary keys to join the two when necessary. Other tables would have been superfluous, so no more tables were created. 
